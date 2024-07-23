@@ -1,0 +1,57 @@
+html {
+    background-image: url(pictures/pine_cones.jpg);
+    background-size: 1000px 1000px;
+    display: flex;
+    justify-content: center;
+    --background-color: black;
+    color: rgb(191, 233, 233)
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.column-one {
+    background-color: var(--background-color);
+    height: 100%;
+   
+
+}
+
+.column-two {
+    background-color: transparent;
+    height: 100%;
+   
+}
+
+.column-three {
+    background-color: rgb(119, 136, 135);
+    opacity: 85%;
+    height: 100%;
+    width: 650px;
+    
+}
+
+.column-four {
+    background-color: var(--background-color);
+    height: 100%;
+   
+}
+
+
+
