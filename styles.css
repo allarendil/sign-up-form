@@ -4,7 +4,9 @@ html {
     display: flex;
     justify-content: center;
     --background-color: black;
-    color: rgb(191, 233, 233)
+    color: rgb(191, 233, 233);
+    font-family: 'Norse Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .wrapper {
